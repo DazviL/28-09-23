@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tela Inicial do Stopots</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Stopots</h1>
+    </header>
+    <section class="content">
+        <div class="logo">
+            <img src="stop.png" alt="Logo do Stopots">
+        </div>
+        <p>Bem-vindo ao Stopots! O jogo de palavras viciante.</p>
+    </section>
+        <section class="content2"><div class="button-container">
+            <button onclick="login()">Login</button>
+            <button class="start-button" onclick="redirecionarParaSelecaoDeSala()">Começar</button>
+        <script>
+            function redirecionarParaSelecaoDeSala() {
+                window.location.href = "sala.html";
+            }
+        </script>
+    <script src="index.js"></script>
+    <div class="regras">
+    <center><button onclick="regras()">Regras</button></center>
+    </div>
+</section>
+</body>
+</html>

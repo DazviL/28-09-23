@@ -1,0 +1,66 @@
+/* Estilos gerais (sem alterações) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #342f68;
+    background-image: url(stopots.png);
+    background-size: cover;
+}
+h1{
+    font-size: 55px;
+}
+header {
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    margin: 20px;
+    text-align: center;
+}
+
+#letter-container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#letter {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+button {
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* Animação de rotação */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotate 1s linear infinite;
+}
+a {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo de Palavras</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo de Palavras</h1>
+    </header>
+    <link rel="stylesheet" type="text/css" href="jogo.css">
+    <section class="content">
+        <h2>Preencha palavras com a letra <span id="LetraSorteada"></span>:</h2>
+        <form>
+            <label for="adjetivo">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+
+            <label for="animal">Esporte:</label>
+            <input type="text" id="esporte" name="esporte" required>
+            <br>
+
+            <label for="comida">Capital:</label>
+            <input type="text" id="capital" name="capital" required>
+            <br>
+            <label for="adjetivo">Cor:</label>
+            <input type="text" id="cor" name="cor" required>
+            <br>
+
+            <label for="animal">Palavra em Inglês:</label>
+            <input type="text" id="palavra em ingles" name="palavra em ingles" required>
+            <br>
+
+            <label for="comida">Comida:</label>
+            <input type="text" id="comida" name="comida" required>
+            <br>
+            <label for="adjetivo">Profissão:</label>
+            <input type="text" id="profissao" name="profissao" required>
+            <br>
+
+            <label for="animal">MSÉ:</label>
+            <input type="text" id="mse" name="mse" required>
+            <br>
+
+            <label for="comida">Ator:</label>
+            <input type="text" id="ator" name="ator" required>
+            <br>
+            <label for="adjetivo">Pizza de:</label>
+            <input type="text" id="pizza" name="pizza" required>
+            <br>
+
+            <label for="animal">Fruta:</label>
+            <input type="text" id="fruta" name="fruta" required>
+            <br>
+
+            <label for="comida">Desenho animado:</label>
+            <input type="text" id="desenho" name="desenho" required>
+            <br>
+
+            <center><input type="submit" value="Enviar"></center>
+            <center><button id="stopButton">Stop</button></center>
+        </form>
+    </section>
+    <center><a href="stopots.html">Voltar para a Tela Inicial</a></center>
+    <br><br><br>
+
+    <script>
+        document.getElementById("stopButton").addEventListener("click", function() {
+            alert("Jogo interrompido!");
+        });
+    </script>
+    <script>
+        document.getElementById("LetraSorteada").textContent = sessionStorage.getItem("letraSorteada");
+
+        // var letraSorteada = 'A';
+        // localStorage.setItem('letraSorteada', letraSorteada);
+        // var letraSorteada = localStorage.getItem('letraSorteada');
+        // document.getElementById("letraSorteada").textContent = letraSorteada;
+    </script>
+</body>
+</html>

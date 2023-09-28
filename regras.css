@@ -1,0 +1,23 @@
+body{
+    background-color: #cd1e46;
+    background-image: url(stop2.png);
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+}
+a{
+    color: #fff;
+    font-size: 25px;
+}
+section{
+    box-sizing: border-box;
+}
+.box {
+    border: 2px solid;
+    padding: 10px; 
+    width: 780px; 
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}

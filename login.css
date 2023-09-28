@@ -1,0 +1,55 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cd1e46;
+}
+
+header {
+    background-color: #cd1e46;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.login-form, .register-form {
+    background-color: #fff;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+form {
+    text-align: left;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+h1 {
+    font-size: 80px;
+}
+a {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}

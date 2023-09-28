@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorteio de Letra</title>
+    <link rel="stylesheet" type="text/css" href="sorteio.css">
+</head>
+<body>
+    <header>
+        <h1>Sorteio de Letra</h1>
+    </header>
+    <section class="content">
+        <div id="letter-container">
+            <h2>Letra Sorteada:</h2>
+            <div id="letter">@</div>
+        </div>
+        <button id="draw-button">Sortear Letra</button>
+        <button id="jogo" onclick="redirecionarParaJogo()">Entrar no Jogo</button>
+    </section>
+    <script>
+        function redirecionarParaJogo() {
+            window.location.href = "jogo.html";
+        }
+    </script>
+    <script src="sorteio.js"></script>
+    <center><a href="stopots.html">Voltar para a Tela Inicial</a></center>
+</body>
+</html>
